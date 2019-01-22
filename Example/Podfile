@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HLSSDK_Example' do
+  pod 'HLSSDK', :path => '../'
+
+  target 'HLSSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
