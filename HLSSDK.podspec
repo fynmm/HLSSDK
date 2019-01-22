@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HLSSDK/Classes/**/*'
+  s.source_files = 'HLSSDK/Classes/*'
   
   # s.resource_bundles = {
   #   'HLSSDK' => ['HLSSDK/Assets/*.png']

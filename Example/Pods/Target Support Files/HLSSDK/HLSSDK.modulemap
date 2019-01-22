@@ -1,0 +1,6 @@
+framework module HLSSDK {
+  umbrella header "HLSSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
