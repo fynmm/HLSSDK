@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0277198ABDEB7334A72257B9B1965CA5 /* HLSSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11ACFD3B4BB26D470360D6E9F0EF0F43 /* HLSSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27D5AEB9442E8973D543E77BA8B8A600 /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08F4D7F2EA71171AEEF489316E88A84 /* Macro.swift */; };
 		27F6423AAF5855D30D9775D73A59BC78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		28CA9FA19823474CCFB409CD99CC71A1 /* Pods-HLSSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A46AAD543824FEC2B3808D67F5BEA85A /* Pods-HLSSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		472C01755E71917F7215553F41198F85 /* AA.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B9B16A27FDA4309E023608988F621 /* AA.swift */; };
-		5438A699D160A860BCAE8F5D18CEDF82 /* HLSSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F36E3508FE4A75C3F27223CDA5FA53 /* HLSSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		554081C7C9138A78C34647542937AC2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		64F4A1BEE022F0217036D553402C1C00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		70E2CA97DAE870F8691F6FA47791BF9A /* HLSSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 254585AA99AD070D9CC16D9994A3D5C5 /* HLSSDK-dummy.m */; };
 		828F6C3C6FC7EB26761FEB9522164E26 /* Pods-HLSSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB159203A357EDE8B7889BF93EEB374 /* Pods-HLSSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E515CEFF037B9DDED88D2AD2FC6F412 /* Pods-HLSSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ED4832D820F13D8CE62167B0551F10 /* Pods-HLSSDK_Tests-dummy.m */; };
-		C3E8836989278A09348B9B41450D3355 /* HLSSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4D8763DAB03E7FABDBA9FD52D0779F /* HLSSDK-dummy.m */; };
-		DD807CB921F6C7A9002AD4CF /* AA.swift in Headers */ = {isa = PBXBuildFile; fileRef = D69B9B16A27FDA4309E023608988F621 /* AA.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D367A38245C1894B27350EA76BC1945 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		AE778EED0EBC832C341527FB19D2C342 /* AA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9ACB089A6496C6596AAC7AE8F97065 /* AA.swift */; };
 		F9758A272DA865D3960CB62B61B80618 /* Pods-HLSSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C10FDE0F477071999F883D54BB1E48 /* Pods-HLSSDK_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -32,58 +32,51 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 839E704450E190FC1F19F979CA6F52CC;
+			remoteGlobalIDString = D0DC6E6AE3C80D4B893984E615222AFB;
 			remoteInfo = HLSSDK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		034B5A97E8EE5B53E27D9FFDE1D939CB /* Pods_HLSSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLSSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		034B5A97E8EE5B53E27D9FFDE1D939CB /* Pods_HLSSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HLSSDK_Tests.framework; path = "Pods-HLSSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F61D0F9D18F0406898F3A9EFEF373B8 /* Pods-HLSSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLSSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		11ACFD3B4BB26D470360D6E9F0EF0F43 /* HLSSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLSSDK-umbrella.h"; sourceTree = "<group>"; };
 		19ED4832D820F13D8CE62167B0551F10 /* Pods-HLSSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLSSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		263BF2D140B0F6A772D001B83F8E9806 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1AAF6A3526D73D332758B5257E4C166E /* HLSSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLSSDK-prefix.pch"; sourceTree = "<group>"; };
+		254585AA99AD070D9CC16D9994A3D5C5 /* HLSSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HLSSDK-dummy.m"; sourceTree = "<group>"; };
 		2ABCD28F27A95B48F7790E661F000999 /* Pods-HLSSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLSSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		30C3D05743B180AB32BC74B989D438D4 /* Pods-HLSSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLSSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		36EFCAB2EF76E6054C9C1303BB1ADB6E /* HLSSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HLSSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EFCAB2EF76E6054C9C1303BB1ADB6E /* HLSSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HLSSDK.framework; path = HLSSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDDF818D4980D6AA6CF26439F6EDB47 /* Pods-HLSSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLSSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		41C774BBA45BC73074F5F3EAC8D56381 /* Pods-HLSSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HLSSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		45C10FDE0F477071999F883D54BB1E48 /* Pods-HLSSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HLSSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		523BBA48A3C2C25ECAEF76EA567726DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		534C10D17D6C9702A2B2B5BF0D796EB9 /* Pods_HLSSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLSSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		534C10D17D6C9702A2B2B5BF0D796EB9 /* Pods_HLSSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HLSSDK_Example.framework; path = "Pods-HLSSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		624D475C2790CD04EEDF77B3BFBFCCFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		655E3F69F344DBE78C2CD4EF1108B78B /* Pods-HLSSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HLSSDK_Example.modulemap"; sourceTree = "<group>"; };
 		6CE502CF3C1F49674024FCA7E46BB48C /* Pods-HLSSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLSSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		748376162DBB14F40BAF9643CCE53DB0 /* HLSSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLSSDK-prefix.pch"; sourceTree = "<group>"; };
-		75748767C90209AC3F9ABABCAACCD8A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		78F05474D9DC4FB39B5892A1F5028945 /* Pods-HLSSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLSSDK_Tests-resources.sh"; sourceTree = "<group>"; };
-		7CAD07384ACD5C590A86D87BFA261A6B /* HLSSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HLSSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7D653FCBFCBC89501FD1D93CCEA83709 /* Pods-HLSSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLSSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E9ACB089A6496C6596AAC7AE8F97065 /* AA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AA.swift; path = HLSSDK/Classes/AA.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9AB159203A357EDE8B7889BF93EEB374 /* Pods-HLSSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HLSSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		A2F36E3508FE4A75C3F27223CDA5FA53 /* HLSSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HLSSDK-umbrella.h"; sourceTree = "<group>"; };
 		A46AAD543824FEC2B3808D67F5BEA85A /* Pods-HLSSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HLSSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A7B494D0D3655578B54A6220AF00707E /* HLSSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HLSSDK.modulemap; sourceTree = "<group>"; };
 		A8E82D05CFA3BECF7C0A6A348EAB1E4D /* Pods-HLSSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HLSSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		ABA604DF042B7EE3CBECD9D1B69A073D /* HLSSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLSSDK.xcconfig; sourceTree = "<group>"; };
-		AF9EBA1380B39EACD364D9A3AE81B08B /* HLSSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HLSSDK.modulemap; sourceTree = "<group>"; };
+		A8FF18069D79B2BA104D49E9F2D835A5 /* HLSSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HLSSDK.xcconfig; sourceTree = "<group>"; };
+		B04C4C3B58AC286C712766FF81E200EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B778B372723724CE68E27FC51FFD887D /* Pods-HLSSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HLSSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		BA7E9FB23DEFEFA8E876B054D66FA17C /* Pods-HLSSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HLSSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BFB65ECFD4CB77CE93D1BC405317BDA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4AA93CCE6D715DF17EC9760D41CFE02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFB1CE7EB584F85ADE4DC2848F07ABD2 /* Pods-HLSSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLSSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		D69B9B16A27FDA4309E023608988F621 /* AA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AA.swift; path = HLSSDK/Classes/AA.swift; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E08F4D7F2EA71171AEEF489316E88A84 /* Macro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Macro.swift; path = HLSSDK/Classes/Macro.swift; sourceTree = "<group>"; };
 		F8EDBB0075F75D2194D1085808927FA1 /* Pods-HLSSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HLSSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		FE4D8763DAB03E7FABDBA9FD52D0779F /* HLSSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HLSSDK-dummy.m"; sourceTree = "<group>"; };
-		FF27E4000F9060FC673F12211247F7F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC57860DE2F00775E80D25C1D2171040 /* HLSSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HLSSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5C89EB7275A7572AAAAC4DBAD10C8947 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				554081C7C9138A78C34647542937AC2A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6F7AA018B3BE71B47AF5D7918F1A0D9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -100,9 +93,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B92D9283571F2460C5905C13EF02AC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D367A38245C1894B27350EA76BC1945 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B1706EAADF64FF8BD7774EFCB1EC9E9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7181DE5A863F5F46FD8B09AB936D5211 /* HLSSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		16A398DC0B382439AC3F1C16DC002CAE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,14 +119,6 @@
 				26643221D7C4FDB8EBB8CC8C3DEF306F /* Pods-HLSSDK_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		1BD515A6C2F7A1A43D1BBEDED957D745 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				37D49027A7076C9C8329FA694C6E18F3 /* HLSSDK */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		26643221D7C4FDB8EBB8CC8C3DEF306F /* Pods-HLSSDK_Tests */ = {
@@ -138,17 +139,6 @@
 			path = "Target Support Files/Pods-HLSSDK_Tests";
 			sourceTree = "<group>";
 		};
-		37D49027A7076C9C8329FA694C6E18F3 /* HLSSDK */ = {
-			isa = PBXGroup;
-			children = (
-				D69B9B16A27FDA4309E023608988F621 /* AA.swift */,
-				C7C63175DB508AF0DDAB8BF20ADE21AF /* Pod */,
-				7B597D939F705A7A374F802FBEDD5A09 /* Support Files */,
-			);
-			name = HLSSDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,25 +147,33 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7B597D939F705A7A374F802FBEDD5A09 /* Support Files */ = {
+		6DADD015939E05C55EA0D4578513DAEF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AF9EBA1380B39EACD364D9A3AE81B08B /* HLSSDK.modulemap */,
-				ABA604DF042B7EE3CBECD9D1B69A073D /* HLSSDK.xcconfig */,
-				FE4D8763DAB03E7FABDBA9FD52D0779F /* HLSSDK-dummy.m */,
-				748376162DBB14F40BAF9643CCE53DB0 /* HLSSDK-prefix.pch */,
-				A2F36E3508FE4A75C3F27223CDA5FA53 /* HLSSDK-umbrella.h */,
-				FF27E4000F9060FC673F12211247F7F8 /* Info.plist */,
+				FC57860DE2F00775E80D25C1D2171040 /* HLSSDK.podspec */,
+				624D475C2790CD04EEDF77B3BFBFCCFB /* LICENSE */,
+				B04C4C3B58AC286C712766FF81E200EE /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HLSSDK";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7181DE5A863F5F46FD8B09AB936D5211 /* HLSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8E9ACB089A6496C6596AAC7AE8F97065 /* AA.swift */,
+				E08F4D7F2EA71171AEEF489316E88A84 /* Macro.swift */,
+				6DADD015939E05C55EA0D4578513DAEF /* Pod */,
+				A5EAA4FF589B51504D78C04A4AE3E562 /* Support Files */,
+			);
+			name = HLSSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1BD515A6C2F7A1A43D1BBEDED957D745 /* Development Pods */,
+				0B1706EAADF64FF8BD7774EFCB1EC9E9 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				A44D6F3B03327E6776BE09909CAC5E9B /* Products */,
 				16A398DC0B382439AC3F1C16DC002CAE /* Targets Support Files */,
@@ -190,6 +188,20 @@
 				034B5A97E8EE5B53E27D9FFDE1D939CB /* Pods_HLSSDK_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A5EAA4FF589B51504D78C04A4AE3E562 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7B494D0D3655578B54A6220AF00707E /* HLSSDK.modulemap */,
+				A8FF18069D79B2BA104D49E9F2D835A5 /* HLSSDK.xcconfig */,
+				254585AA99AD070D9CC16D9994A3D5C5 /* HLSSDK-dummy.m */,
+				1AAF6A3526D73D332758B5257E4C166E /* HLSSDK-prefix.pch */,
+				11ACFD3B4BB26D470360D6E9F0EF0F43 /* HLSSDK-umbrella.h */,
+				C4AA93CCE6D715DF17EC9760D41CFE02 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HLSSDK";
 			sourceTree = "<group>";
 		};
 		AED1DA9695BE4BC2B3CD4668BE22347F /* Pods-HLSSDK_Example */ = {
@@ -218,16 +230,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C7C63175DB508AF0DDAB8BF20ADE21AF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7CAD07384ACD5C590A86D87BFA261A6B /* HLSSDK.podspec */,
-				75748767C90209AC3F9ABABCAACCD8A3 /* LICENSE */,
-				263BF2D140B0F6A772D001B83F8E9806 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -239,12 +241,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43BC9576FB89CEB9BEEA513F1E5B1E39 /* Headers */ = {
+		7607C494194D4AE40E83EC198B131827 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5438A699D160A860BCAE8F5D18CEDF82 /* HLSSDK-umbrella.h in Headers */,
-				DD807CB921F6C7A9002AD4CF /* AA.swift in Headers */,
+				0277198ABDEB7334A72257B9B1965CA5 /* HLSSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,14 +279,14 @@
 			productReference = 034B5A97E8EE5B53E27D9FFDE1D939CB /* Pods_HLSSDK_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		839E704450E190FC1F19F979CA6F52CC /* HLSSDK */ = {
+		D0DC6E6AE3C80D4B893984E615222AFB /* HLSSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB3211DD95F4C37905B39E1C9CC20CB6 /* Build configuration list for PBXNativeTarget "HLSSDK" */;
+			buildConfigurationList = 884E0685E7ED3A208427BF6777FF6A90 /* Build configuration list for PBXNativeTarget "HLSSDK" */;
 			buildPhases = (
-				43BC9576FB89CEB9BEEA513F1E5B1E39 /* Headers */,
-				915399DF00B4B0CDC2B31E92ED0C7C70 /* Sources */,
-				5C89EB7275A7572AAAAC4DBAD10C8947 /* Frameworks */,
-				007895A3AC13CBDD4EAF60CD001FE268 /* Resources */,
+				7607C494194D4AE40E83EC198B131827 /* Headers */,
+				154579B223EF6D1381E1C8C17E9968AF /* Sources */,
+				B92D9283571F2460C5905C13EF02AC34 /* Frameworks */,
+				C354F9F8E841E74EE7E2C23D4D86A058 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -336,7 +337,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				839E704450E190FC1F19F979CA6F52CC /* HLSSDK */,
+				D0DC6E6AE3C80D4B893984E615222AFB /* HLSSDK */,
 				F77F3ADED15A8201D7E71084A78DEE81 /* Pods-HLSSDK_Example */,
 				2B8B397D46EBDDF2C0589F26C8A63A8D /* Pods-HLSSDK_Tests */,
 			);
@@ -344,13 +345,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		007895A3AC13CBDD4EAF60CD001FE268 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		03A69EB10D5BFBEE4A25CC21682842DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -365,15 +359,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C354F9F8E841E74EE7E2C23D4D86A058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		915399DF00B4B0CDC2B31E92ED0C7C70 /* Sources */ = {
+		154579B223EF6D1381E1C8C17E9968AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				472C01755E71917F7215553F41198F85 /* AA.swift in Sources */,
-				C3E8836989278A09348B9B41450D3355 /* HLSSDK-dummy.m in Sources */,
+				AE778EED0EBC832C341527FB19D2C342 /* AA.swift in Sources */,
+				70E2CA97DAE870F8691F6FA47791BF9A /* HLSSDK-dummy.m in Sources */,
+				27D5AEB9442E8973D543E77BA8B8A600 /* Macro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +407,7 @@
 		B82FEEC35D4C466442A88CCE26C6EF83 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HLSSDK;
-			target = 839E704450E190FC1F19F979CA6F52CC /* HLSSDK */;
+			target = D0DC6E6AE3C80D4B893984E615222AFB /* HLSSDK */;
 			targetProxy = E4FB0B6CA993079E07153744473EC42A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -443,38 +445,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		4A729249A7057F98DFCF894E86719601 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABA604DF042B7EE3CBECD9D1B69A073D /* HLSSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HLSSDK/HLSSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HLSSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HLSSDK/HLSSDK.modulemap";
-				PRODUCT_MODULE_NAME = HLSSDK;
-				PRODUCT_NAME = HLSSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		50646285DD9FD95AF390BDA3FB1948EA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -542,6 +512,37 @@
 			};
 			name = Debug;
 		};
+		55964DEC6CD7BCFD339B918C9481E943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8FF18069D79B2BA104D49E9F2D835A5 /* HLSSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HLSSDK/HLSSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HLSSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HLSSDK/HLSSDK.modulemap";
+				PRODUCT_MODULE_NAME = HLSSDK;
+				PRODUCT_NAME = HLSSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -597,9 +598,42 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		621C580B85C4B16B31C92911ADEAB63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8FF18069D79B2BA104D49E9F2D835A5 /* HLSSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HLSSDK/HLSSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HLSSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HLSSDK/HLSSDK.modulemap";
+				PRODUCT_MODULE_NAME = HLSSDK;
+				PRODUCT_NAME = HLSSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -636,37 +670,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		BA142913CA3071F117C97D6AF944AD18 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABA604DF042B7EE3CBECD9D1B69A073D /* HLSSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HLSSDK/HLSSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HLSSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HLSSDK/HLSSDK.modulemap";
-				PRODUCT_MODULE_NAME = HLSSDK;
-				PRODUCT_NAME = HLSSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		BCC60801209C724DC73A871120B7FCEF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -747,6 +750,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		884E0685E7ED3A208427BF6777FF6A90 /* Build configuration list for PBXNativeTarget "HLSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55964DEC6CD7BCFD339B918C9481E943 /* Debug */,
+				621C580B85C4B16B31C92911ADEAB63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9F7DF6467256EA4D2218F6E3C5D1BF37 /* Build configuration list for PBXNativeTarget "Pods-HLSSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -761,15 +773,6 @@
 			buildConfigurations = (
 				BCC60801209C724DC73A871120B7FCEF /* Debug */,
 				B800D8C5CE8DEC0F59577F5D866D53E9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DB3211DD95F4C37905B39E1C9CC20CB6 /* Build configuration list for PBXNativeTarget "HLSSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA142913CA3071F117C97D6AF944AD18 /* Debug */,
-				4A729249A7057F98DFCF894E86719601 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
